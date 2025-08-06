@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guillaume Marolleau - Mes projets informatiques </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="circuit-line" style="top: 20%; animation-delay: 0s;"></div>
+        <div class="circuit-line" style="top: 40%; animation-delay: 1s;"></div>
+        <div class="circuit-line" style="top: 60%; animation-delay: 2s;"></div>
+        <div class="circuit-line" style="top: 80%; animation-delay: 3s;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">guigui</a>
+            <ul class="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#projects">projets</a></li>
+                <li><a href="#other">autres</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Guillaume Marolleau</h1>
+                <p class="hero-subtitle">Étudiant en informatique</p>
+                <p class="hero-description">
+                    J’aime comprendre comment fonctionnent les systèmes, perfectionner mes compétences et apprendre de nouveaux concepts. Toujours curieux d'apprendre, je conçois des projets, j'expérimente et partage ici mes réalisations.
+                </p>
+                <a href="#projects" class="cta-button">Découvrir mes projets</a>
+            </div>
+            <div class="hero-visual">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-button btn-red"></div>
+                        <div class="terminal-button btn-yellow"></div>
+                        <div class="terminal-button btn-green"></div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">guillaume@maro:~$</span> <span class="command">whoami</span>   <!-- whoami = Who am I ? C'est une commande Bash affichant le nom de l’utilisateur courant connecté au système -->
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Etudiant en formation ^_^</span>    <!-- Windows + . = accès aux émojis windows -->
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">guillaume@maro:~$</span> <span class="command">cat skills.txt</span>   <!-- "cat" est l’abréviation de "concatenate", utilisé principalement pour afficher le contenu d’un fichier texte dans le terminal (en l'occurence skills.txt) -->
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Python, Html, Css, JavaScript</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Développement Web</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Firebase</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">guillaume@maro:~$</span> <span class="command">status</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output" style="color: var(--accent-green);">En ligne - Prêt à coder !</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Projets de Code</h2>
+                <p class="section-subtitle">
+                    Une sélection de mes projets de développement, explorant différentes 
+                    technologies et domaines de l'informatique.
+                </p>
+            </div>
+
+            <!-- Si un jour j'ai plus de place, créer un bouton, texte cliquable ou autre pour afficher le reste des projets -->
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-date">2024/2025</div>
+                    <h3 class="project-title">Site de webtoons</h3>
+                    <p class="project-description">
+                        <strong>Site web</strong> portant sur l'univers des webtoons. <br>
+                        Création d'une tier-list interactive, ainsi qu'un section "mini-jeux" comportant : <br>
+                        - Un jeu de Memory avec un classement. <br>
+                        - Un jeu type "Kahoot" où le joueur doit deviner à quel webtoon correspond l'image. <br>
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Html</span>
+                        <span class="tech-tag">Css</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Guip4pro/Site-Webtoons" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://guip4pro.github.io/Site-Webtoons/" target="_blank" class="project-link">
+                            <span>Site Web</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-date">Mai 2024</div>
+                    <h3 class="project-title">Memory</h3>
+                    <p class="project-description">
+                        Tout premier projet pour une évaluation en cours de NSI de Première. <br>
+                        j'ai dû réaliser un jeu de <strong>Memory</strong>.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Html</span>
+                        <span class="tech-tag">Css</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="Projet NSI Marolleau.G 1°3/projet.html" target="_blank" class="project-link">
+                            <span>Site Web</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in" style="display: none;">  <!-- Hidden -->
+                    <h3 class="project-title">ML Fraud Detector</h3>
+                    <p class="project-description">
+                        Système de détection de fraudes utilisant l'intelligence artificielle. 
+                        Analyse en temps réel des transactions avec tableau de bord interactif.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="project-link">
+                            <span>Documentation</span>
+                        </a>
+                        <a href="#" class="project-link">
+                            <span>Demo Live</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="display: none;">  <!-- Hidden -->
+                    <h3 class="project-title">DevOps Pipeline</h3>
+                    <p class="project-description">
+                        Pipeline CI/CD complet avec intégration continue, tests automatisés 
+                        et déploiement automatique sur infrastructure cloud.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Jenkins</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Projects Section -->
+    <section id="other">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Autres Projets</h2>
+                <p class="section-subtitle">
+                    Créations diverses et activités en lien avec la tech.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <h3 class="project-title">Concours et Certifications</h3>   <!-- Autre nom : "Parcours Numérique" (si un jour je veux utiliser cette place pour caser d'autres choses) -->
+                    <p class="project-description">
+                        Certification <strong>Pix</strong> en Terminale. 439/1024 points et niveau global : Indépendant 2.
+                        Participation au concours <strong>Castor Informatique</strong> et qualification au <strong>concours Algoréa</strong> au Collège à 3 reprises.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Numérique</span>
+                        <span class="tech-tag">Algorithmique</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>Pix</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <h3 class="project-title">Stage de 3ᵉ à l'INA</h3>
+                    <p class="project-description">
+                        Immersion d'une semaine à l'<strong>Institut National de l'Audiovisuel</strong> (INA). <br>
+                        Découverte des métiers liés à l'archivage, à la numérisation, et aux technologies audiovisuelles.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Audiovisuel</span>
+                        <span class="tech-tag">Métiers</span>
+                    </div>
+                </div>
+
+
+                <div class="project-card fade-in">
+                    <h3 class="project-title">Leek Wars</h3>
+                    <p class="project-description">
+                        Initiation à la programmation à travers le jeu <a href="https://leekwars.com/" class="custom-link"><em>Leek Wars</em></a>, où le joueur contrôle un poireau virtuel. <br>
+                        Création d’une IA de combat en <strong>LeekScript</strong> pour affronter d'autres joueurs.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Programmation</span>
+                        <span class="tech-tag">IA</span>
+                        <span class="tech-tag">Ludique</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://leekwars.com/farmer/63837" class="project-link" target="_blank">
+                            <span>Mon compte</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="project-card fade-in" style="display: none;">  <!-- Hidden -->
+                    <h3 class="project-title">Conférence Cybersécurité</h3>
+                    <p class="project-description">
+                        Présentation sur les bonnes pratiques en cybersécurité lors de la 
+                        journée des étudiants en informatique. Sensibilisation aux risques numériques.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Présentation</span>
+                        <span class="tech-tag">Cybersécurité</span>
+                        <span class="tech-tag">Éducation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>Slides</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="display: none;">  <!-- Hidden -->
+                    <h3 class="project-title">Bénévolat Code Club</h3>
+                    <p class="project-description">
+                        Animation d'ateliers de programmation pour collégiens et lycéens. 
+                        Initiation au code avec Scratch, Python et développement web.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Éducation</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scratch</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>Ressources</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="display: none;">  <!-- Hidden -->
+                    <h3 class="project-title">Blog Tech</h3>
+                    <p class="project-description">
+                        Articles techniques sur le développement, la cybersécurité et les 
+                        nouvelles technologies. Partage de connaissances et retours d'expérience.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Rédaction</span>
+                        <span class="tech-tag">Tech</span>
+                        <span class="tech-tag">Tutoriels</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <span>Lire le blog</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">
+                    Vous souhaitez échanger avec moi ? <br>
+                    Remplissez le formulaire ci-dessous !
+                </p>
+            </div>
+
+            <form action="https://formspree.io/f/meozrpep" method="POST" class="contact-form fade-in">
+                <div class="form-group">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" id="name" name="name" class="form-input" maxlength="50" required>
+                    <p id="char-count">     (nombre restant de charactères)     </p>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" maxlength="50" required>
+                    <p id="char-count">     (nombre restant de charactères)     </p>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Sujet</label>
+                    <input type="text" id="subject" name="subject" class="form-input" maxlength="60" required>
+                    <p id="char-count">     (nombre restant de charactères)     </p>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-textarea" maxlength="3000" required></textarea>
+                    <p id="char-count">    (nombre restant de charactères)    </p>
+                </div>
+                <input type="text" name="_gotcha" style="display:none">     <!-- anti-spam -->
+                <button type="submit" class="submit-button">Envoyer le message</button>
+            </form>
+
+            
+
+        </div>
+        <!-- Message de confirmation -->
+        <div id="popup-message">✅ Message envoyé avec succès !</div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Guip4pro" target="_blank" class="social-link">GitHub</a>
+                <a href="https://fr.linkedin.com/in/guillaume-marolleau-532317289" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://www.instagram.com/g_uillaumy?utm_source=qr&igsh=OXdjNTd1c3JncXNo" target="_blank" class="social-link">Instagram</a>
+            </div>
+            <p style="color: var(--text-secondary); font-family: 'JetBrains Mono', monospace;">
+                © 2025 Guillaume Marolleau - Fait avec ❤️ et beaucoup de ☕
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

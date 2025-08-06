@@ -1,0 +1,68 @@
+body {
+	text-align: center;
+}
+
+#accueil1 {
+	width: 6%;
+	height: auto;
+}
+
+h1 {
+	text-align: center;
+	background-color: red;
+	font-size: 45px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 27px;
+	text-decoration: underline;
+}
+
+.score-box {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+#score {
+	color: blue;
+}
+
+
+	/* Les cartes */
+.dos-carte {
+	cursor: pointer;
+	width: 75%;
+	height: auto;
+	margin: 10px;
+}
+
+#tableau {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: black 0.5px solid;
+}
+
+.cachée {
+    visibility: hidden;
+}
+
+
+.no-pointer {
+    cursor: default;
+}
+
+

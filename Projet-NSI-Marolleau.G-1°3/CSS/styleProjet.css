@@ -1,0 +1,62 @@
+
+/* margin = marge extérieure, padding = marge intérieure */
+
+body {
+	background: linear-gradient(to right, orange, yellow);
+}
+
+	/* Nom, Prénom et Classe */
+#sign {
+	font-size: 90%;
+	border: 2px solid black;
+	padding: 10px;
+    width: 91px;
+}
+
+h1 {
+	text-align: center;
+	background-color: red;
+	font-size: 46px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 33px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 19px;
+}
+
+li {
+	font-size: 19px;
+}
+
+strong {
+	
+}
+
+em {
+	text-decoration: underline;
+	font-style: normal; 
+}
+
+button {
+    font-size: 20px;
+    cursor: pointer;
+	border-radius: 5px;
+	margin: 10px;	/* La propriété s'applique aux 4 côtés */
+}
+
+#Pika {
+    width: 200px;
+    height: auto;
+    margin-right: 300px;	/* Créer une marge à droite de 300px */
+}
+
