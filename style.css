@@ -472,7 +472,7 @@ section {
     box-shadow: var(--shadow-glow);
 }
 
-#char-count {
+.char-count {
     font-size: 0.85rem;
     color: #666;
     margin-top: 4px;
